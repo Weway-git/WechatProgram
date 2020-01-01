@@ -1,0 +1,9 @@
+<!--pages/demo03/demo03.wxml-->
+<view class='component'>
+  <view class='inputbox'>
+    <image class='image' src="/icon/home.png"> </image>
+    <input class='input' bindinput='hginput' bindconfirm='hgconfirm' type='text' placeholder='{{placeholder}}' type='{{type}}' value='{{value}}' confirm-type='搜索' />
+    <icon wx:if='{{value}}' bindtap="clearValue" class="icon" type='clear' size="16"></icon>
+   <button  bindtap="mimi" open-type="">点击自动登录</button>
+  </view>
+</view>

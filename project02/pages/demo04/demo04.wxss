@@ -1,0 +1,9 @@
+/* pages/demo04/demo04.wxss */
+view{
+  color: aqua;
+  font-size: 160rpx;
+  text-align: center;
+}
+button{
+  font-size: 80rpx
+}

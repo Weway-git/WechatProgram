@@ -1,0 +1,15 @@
+
+<div>
+  <input type="text" bindinput="handleinput" />
+</div>
+<div> 钱包余额：
+  <view>  
+   ￥  {{num}}
+    </view>
+</div>
+
+<button bindtap="handletap" data-opration="{{1}}">+1</button>
+<button bindtap="handletap" data-opration="{{-1}}">-1</button>
+<button bindtap="handletap" data-opration="{{100}}">+100</button>
+<button bindtap="handletap" data-opration="{{-500}}">-500</button>
+<button bindtap="HandletapZero">清零</button>

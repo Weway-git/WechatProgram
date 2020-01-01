@@ -1,0 +1,60 @@
+<!--
+pages/demo02/demo02.wxml
+1.text标签不换行
+2.view标签默认换行
+-->
+<text>不是这个页面哦嘿嘿</text>
+
+<view>{{msg}}</view>
+<view>{{num}}</view>
+<view>{{person.age}}</view>
+
+<view>1+1</view>
+<view data-num="{{num}}">{{'1'+'1'}}</view>
+<view>{{ 10%2===0 ? '偶数':'奇数'}}</view>
+<view>
+  <checkbox checked="{{true}}"></checkbox>
+</view>
+
+
+<!-- 
+  8 列表循环
+
+ -->
+ <view>
+  <view 
+  wx:for="{{list}}" 
+  wx:key="id">
+    <!--如果list是 [1， 213， "asd"] 的话就用 wx:key="*this" 表示循环项 -->
+
+    索引：{{index}}
+    --
+    值：{{item.name}}
+    color:{{item.color}}
+  </view>
+</view>
+
+<view>
+  <view>对象循环</view>
+  <view 
+  wx:for="{{person}}" 
+  wx:for-item="value" 
+  wx:for-index="key"
+  wx:key="age">
+    属性：{{key}}
+    --
+    属性值：{{value}}
+  </view>
+</view>
+
+<view>
+  <view>条件渲染</view>
+  <view wx:if="{{true}}">显示</view>
+  <view wx:if="{{false}}">隐藏</view>
+
+  <view wx:if="{{true}}">1</view>
+  <view wx:elif="{{false}}">2</view>
+</view>
+
+<view>--------------------</view>
+<view hidden="{{false}}">hidden</view>

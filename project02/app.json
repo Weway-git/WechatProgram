@@ -1,0 +1,52 @@
+{
+  "pages": [
+    
+    "pages/demo06/demo06",
+    "pages/index/index",
+    "pages/demo01/demo01",
+    "pages/logs/logs",
+    "pages/demo04/demo04",
+    "pages/demo05/demo05",
+    "pages/demo03/demo03",
+    "pages/demo02/demo02"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFA07A",
+    "navigationBarTitleText": "东哥商城",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "东东宝贝",
+        "iconPath": "icon/home.png",
+        "selectedIconPath": "icon/home.png"
+      },
+      {
+        "pagePath": "pages/demo01/demo01",
+        "text": "商品信息",
+        "iconPath": "icon/home.png",
+        "selectedIconPath": "icon/home.png"
+      },
+      {
+        "pagePath": "pages/demo04/demo04",
+        "text": "东哥的钱包",
+        "iconPath": "icon/home.png",
+        "selectedIconPath": "icon/home.png"
+      },
+      {
+        "pagePath": "pages/demo06/demo06",
+        "text": "广告位招租",
+        "iconPath": "icon/home.png",
+        "selectedIconPath": "icon/home.png"
+      }
+    ],
+    "backgroundColor": "#98FB98"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

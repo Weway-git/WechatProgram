@@ -1,0 +1,45 @@
+/* pages/demo03/demo03.wxss */
+.component {
+  background-color: #fff;
+  width: 750rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+ 
+.inputbox {
+  box-sizing: border-box;
+  margin-left: 25rpx;
+  border: 1px solid #ccc;
+  width: 700rpx;
+  border-radius: 16rpx;
+  height: 70rpx;
+  background: rgba(248, 248, 248, 1);
+}
+ 
+.image {
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 0rpx;
+  margin-left: 20rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+ 
+.input {
+  vertical-align: middle;
+  width: 500rpx;
+  margin-left: 10px;
+  display: inline-block;
+  height: 60rpx;
+  margin-top: 5rpx;
+  font-size: 24rpx;
+}
+ 
+.icon {
+  position: absolute;
+  display: block;
+  top: 34rpx;
+  right: 40rpx;
+  opacity: 0.8;
+  cursor: pointer;
+}
