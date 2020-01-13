@@ -1,2 +1,17 @@
+<swiper autoplay interval="2000" circular indicator-dots >
+  <swiper-item><image mode="widthFix"src="https://aecpm.alicdn.com/tps/i4/TB1pgxYJXXXXXcAXpXXrVZt0FXX-640-200.jpg" /></swiper-item>
+  <swiper-item><image mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB15tIjGVXXXXcoapXXSutbFXXX.jpg" /></swiper-item>
+  <swiper-item><image mode="widthFix"src="https://gw.alicdn.com/imgextra/i1/103529/O1CN01eoIxbw1bwKIVKflOF_!!103529-0-lubanu.jpg" /></swiper-item>
+
+</swiper>
 <!--pages/demo06/demo06.wxml-->
-<text>pages/demo06/demo06.wxml</text>
+
+<!-- 自动编译text标签 -->
+<text selectable decode>
+  
+  &nbsp; &lt;
+</text>
+
+<!-- mode 用来搞图片内容宽高的 -->
+
+<!-- <image lazy-load src="https://ae01.alicdn.com/kf/Ueb7f459ad4b14d7db040c2bf724fe122K.jpg" /> -->

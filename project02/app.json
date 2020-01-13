@@ -1,6 +1,9 @@
 {
   "pages": [
     
+    
+    "pages/demo13/demo13",
+    "pages/demo11/demo11",
     "pages/demo06/demo06",
     "pages/index/index",
     "pages/demo01/demo01",
@@ -8,7 +11,10 @@
     "pages/demo04/demo04",
     "pages/demo05/demo05",
     "pages/demo03/demo03",
-    "pages/demo02/demo02"
+    "pages/demo02/demo02",
+    "pages/demo10/demo10",
+    "pages/demo12/demo12"
+    
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -27,7 +33,7 @@
         "selectedIconPath": "icon/home.png"
       },
       {
-        "pagePath": "pages/demo01/demo01",
+        "pagePath": "pages/demo11/demo11",
         "text": "商品信息",
         "iconPath": "icon/home.png",
         "selectedIconPath": "icon/home.png"
@@ -39,10 +45,10 @@
         "selectedIconPath": "icon/home.png"
       },
       {
-        "pagePath": "pages/demo06/demo06",
-        "text": "广告位招租",
+        "pagePath": "pages/demo13/demo13",
+        "text": "客服中心",
         "iconPath": "icon/home.png",
-        "selectedIconPath": "icon/home.png"
+        "selectedIconPath": "icon/kefu.png"
       }
     ],
     "backgroundColor": "#98FB98"

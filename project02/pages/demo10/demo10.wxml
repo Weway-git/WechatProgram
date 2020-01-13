@@ -1,0 +1,18 @@
+
+<!-- 图床 -->
+<!-- 动漫：https://ae01.alicdn.com/kf/Ueb7f459ad4b14d7db040c2bf724fe122K.jpg 
+    
+
+-->
+<!-- ——————————————————————————————分割线———————————————————————————————————— -->
+<!--轮播点颜色 indicator-color="#0094ff" indicator-active-color="red"  -->
+
+
+<swiper autoplay interval="2000" circular indicator-dots >
+  <swiper-item><image mode="widthFix"src="https://ae01.alicdn.com/kf/Ueb7f459ad4b14d7db040c2bf724fe122K.jpg" /></swiper-item>
+  <swiper-item><image mode="widthFix"src="https://ae01.alicdn.com/kf/U414b8565e9c445179f39fe9515ae684az.jpg" /></swiper-item>
+  <swiper-item><image mode="widthFix"src="https://ae01.alicdn.com/kf/Udcdd24566af243ad9b29a56c60d22fc37.jpg" /></swiper-item>
+  <swiper-item><image mode="widthFix"src="https://ae01.alicdn.com/kf/U0169b10798f04a61825224a16797b2f0C.jpg" /></swiper-item>
+  <swiper-item><image mode="widthFix"src="https://ae01.alicdn.com/kf/U3c4e3d76ea46419794fe46d113e17a0cB.jpg" /></swiper-item>
+
+</swiper>

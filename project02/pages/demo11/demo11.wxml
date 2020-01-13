@@ -1,0 +1,11 @@
+<!-- 
+  导航navigator
+  url属性
+    要跳转的页面放在tabbar的话就没法跳转了！！
+
+ -->
+<navigator url="/pages/demo06/demo06"  open-type="navigateBack">直接跳转tabbar redict</navigator>
+<navigator url="/pages/demo06/demo06" >轮播图页面 switchtab</navigator>
+<navigator url="/pages/demo06/demo06"  open-type="switchTab">轮播图页面 switchtab</navigator>
+<navigator url="/pages/demo06/demo06"  open-type="reLaunch">轮播图页面 switchtab</navigator>
+<navigator url="/pages/demo06/demo06"  open-type="">轮播图页面 switchtab</navigator>

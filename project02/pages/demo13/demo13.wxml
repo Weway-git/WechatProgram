@@ -1,0 +1,32 @@
+<!-- 
+  button
+ -->
+
+ <!-- <button>默认按钮</button>
+<button size="mini" type="primary">默认按钮</button>
+<button size="mini" type="default">yanse</button>
+<button type="warn" plain>plain</button>
+<button  type="warn" plain loading>loading</button> -->
+
+<!-- 
+
+  button 的开放能力
+
+
+  share转发
+  getphonenumber
+
+
+ -->
+<view >
+
+  <button  open-type="contact" plain loading>联系客服</button>
+  <button type="warn" open-type="share" plain loading>分享小程序</button>
+  <!-- <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">getPhoneNumber</button> -->
+  <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" plain loading>获取用户信息</button>
+  <!-- <button open-type="launchApp">launchApp</button>
+  <button open-type="openSetting">openSetting</button> -->
+  <button type="warn" open-type="feedback" plain loading>反馈</button>
+</view>
+<text bindtap="">{{}}</text>
+<input bindinput=""></input>

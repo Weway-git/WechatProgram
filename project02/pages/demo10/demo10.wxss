@@ -1,0 +1,14 @@
+
+swiper{
+  width: 100%;
+  /* height: calc(50vw * 832 / 500); */
+  height: 500rpx;
+}
+
+image{
+  /* box-sizing: border-box; */
+  /* border: 1px solid red; */
+
+  width: 100%;
+  
+}
