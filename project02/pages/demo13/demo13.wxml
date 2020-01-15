@@ -28,5 +28,11 @@
   <button open-type="openSetting">openSetting</button> -->
   <button type="warn" open-type="feedback" plain loading>反馈</button>
 </view>
-<text bindtap="">{{}}</text>
-<input bindinput=""></input>
+
+<view>
+<text>昵称：{{name}}\n</text>
+<text>电话号码：{{phoneNumber}}\n</text>
+<text>身份证号：{{userID}}\n</text>
+<text>省份：{{province}}\n</text>
+<text>城市：{{city}}\n</text>
+</view>
