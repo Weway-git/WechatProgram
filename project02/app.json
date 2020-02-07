@@ -1,6 +1,6 @@
 {
   "pages": [
-    
+    "pages/demo17/demo17",
     "pages/demo14/demo14",
     "pages/demo13/demo13",
     "pages/demo11/demo11",
@@ -14,6 +14,7 @@
     "pages/demo02/demo02",
     "pages/demo10/demo10",
     "pages/demo12/demo12"
+    
     
   ],
   "window": {

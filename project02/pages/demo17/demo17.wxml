@@ -1,0 +1,11 @@
+<!-- 
+    1.父组件（页面）向子组件传递数据，通过标签属性传递
+        1.子组件接受
+ -->
+<Tabs tabs="{{tabs}}" binditemChange="handleItemChange">
+    <view >gaga</view>
+    <block wx:if="{{tabs[0].isActive}}">{{tabs[0].isActive}}</block>
+    <block wx:elif="{{tabs[1].isActive}}">1{{tabs[0].isActive}}</block>
+    <block wx:elif="{{tabs[2].isActive}}">2{{tabs[0].isActive}}</block>
+    <block wx:else>3</block>
+</Tabs>

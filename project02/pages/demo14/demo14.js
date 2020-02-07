@@ -5,7 +5,25 @@ Page({
    * 页面的初始数据
    */
   data: {
-    gender:""
+    gender:"",
+    list:[
+      {
+        id:0,
+        name:"苹果",
+        value:"apple"
+      },
+      {
+        id:1,
+        name:"葡萄",
+        value:"purple"
+      },
+      {
+        id:2,
+        name:"香蕉",
+        value:"banana"
+      }
+    ],
+    checklist:[]
   },
   handlechange(e){
     console.log(e.detail)
@@ -13,6 +31,13 @@ Page({
     this.setData({
       // gender:gender
       gender
+    })
+  },
+  handleItemChange(e){
+    console.log(e);
+    const checklist=e.detail.value;
+    this.setData({
+      checklist
     })
   }
 
