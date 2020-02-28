@@ -1,0 +1,16 @@
+<view class="tabs">
+    <view class="tabs_title">
+        <view class="title_item {{item.isActive?'active':''}}" 
+        wx:for="{{tabs}}"
+        wx:key="id"
+        bindtap="handleItemTap"
+        data-index="{{index}}">
+            <!-- tabs.wxml中的bindtap这样就可以把标签的所有属性包括data-
+            index用handleitemtap传入父组件了 -->
+            {{item.value}}
+        </view>
+    </view>
+    <view class="tabs_content">
+        <slot ></slot>
+    </view>
+</view>
