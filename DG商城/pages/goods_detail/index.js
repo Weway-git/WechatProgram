@@ -26,7 +26,8 @@ Page({
 
       const goodsObj=await request({url:"/goods/detail",data:{goods_id}});
       this.GoodsInfo=goodsObj;
-      console.log(goodsObj)
+      // console.log(goods_id)
+      // console.log("goodObj:",goodsObj)
       this.setData({
         goodsObj:{
           goods_name:goodsObj.goods_name,
@@ -46,6 +47,30 @@ Page({
       current, // 当前显示图片的http链接
       urls, // 需要预览的图片http链接列表
     })
+  },
+  // 点击加入购物车
+  handleCartAdd(e){
+    // 获得缓存中的购物车数组
+    let cart=wx.getStorageSync("cart")||[];
+    // 判断商品对象是否存在购物车数组
+    let index=cart.findIndex(v=>v.goods_id===this.GoodsInfo.goods_id);
+    if(index===-1){
+      // 不存在，第一次添加
+      this.GoodsInfo.num=1;
+      cart.push(this.GoodsInfo);
+    }else{
+      // 已经存在
+      cart[index].num++;
+
+    }
+    wx.setStorageSync("cart",cart);
+    wx.showToast({
+      title: '加入成功',
+      icon: 'success',
+      mask: true
+    });
+
+
   }
   
 

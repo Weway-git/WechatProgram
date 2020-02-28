@@ -35,7 +35,7 @@ Page({
   },
   totalPages:1,
   handleTabsItemChange(e){
-    // console.log(e);
+    console.log("tabs",e);
     // 获取被点击的索引
     const {index} = e.detail;
     // 修改原数组
