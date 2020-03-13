@@ -20,7 +20,7 @@ Page({
     // 获取缓存收货信息
     const address=wx.getStorageSync("address");
     // gei data赋值
-    this.setdata({
+    this.setData({
       address
     })
 
@@ -63,9 +63,11 @@ Page({
       // 诱导用户打开授权设置
       await openSetting();
     }else{
-      // 调用获取收货地址的api
+
     }
-    const address=await chooseAddress();
+    // 调用获取收货地址的api
+    let address=await chooseAddress();
+    address.all=address.provinceName+address.cityName+address.countyName+address.detailInfo;
     // 存入到缓存中
     wx.setStorageSync("address", address);
   } catch (error) {
